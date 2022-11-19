@@ -49,7 +49,7 @@ p{
     background: url('../img1.jpg') no-repeat;
     background-size: cover;
     /* background-color: #111; */
-    height: 50vh;
+    height: 100vh;
     color: #fff;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
@@ -416,8 +416,8 @@ section .title::after{
     }
     .skills .skills-content .column,
     .contact .contact-content .column{
-        width: 100%;
-        margin-bottom: 35px;
+        width: 51vh;
+    margin-bottom: 35px;
  
 }
 
@@ -425,23 +425,38 @@ section .title::after{
 
 
 
+@media(max-width:360px) {
+    .about-content .text{
 
+        width: 69vh;
+        margin-left: -20vh;
+        padding: 25px;
+        position: relative;
+        top: 20px;
+        left: 10px;
+      }
+
+
+    
+}
 @media (max-width: 600px){
  
   .about-content p{
-      width: 60vh;
-      margin-left: -10vh;
-      line-height: 2rem;
-      position: relative;
+    width: 54vh;
+    margin-left: -12vh;
+    line-height: 30px;
+    position: relative;
+    padding-left: 9pxs
 
   }
 
   .about-content .text{
-      
-      top: 10px;
-    width: 60vh;
-    margin-left: -10vh;
-    padding: 20px;
+    width: 62vh;
+    margin-left: -20vh;
+    padding: 15px;
+    position: relative;
+    top: 20px;
+    left: 45px;
   }
     .skills .skills-content .right span{
         
@@ -465,10 +480,12 @@ section .title::after{
     }
 
     .skills p{
-        
         font-size: 1.10em;
-        line-height: 2rem;
-        width: 100%;
+    line-height: 2rem;
+    width: 54vh;
+    position: relative;
+    top: 20px;
+    padding-left: 4px;
         
         
     }
