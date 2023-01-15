@@ -96,7 +96,7 @@ p{
 /*  Home   inicio  */
 .home{
     display: flex;
-    background: url('https://github.com/Emaricarprogrammer/emaricar12.github.io/blob/93eebb176976661dc83241e1edae97f2a6ef21c8/img3.jpg') no-repeat;
+    background: url('/img/img3.jpg') no-repeat;
     background-size: cover;
     /* background-color: #111; */
     height: 50vh;
