@@ -96,7 +96,7 @@ p{
 /*  Home   inicio  */
 .home{
     display: flex;
-    background: url('img3.jpg') no-repeat;
+    background: url('img3.Jpg') no-repeat;
     background-size: cover;
     /* background-color: #111; */
     height: 50vh;
